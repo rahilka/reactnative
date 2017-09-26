@@ -1,10 +1,10 @@
 // Index.android.js - place code in here for Android
 
-// import a library to help create a component
+// Import a library to help create a component
 import React from 'react';
 import ReactNative from 'react-native';
 
-// create a component
+// Create a component
 const App = () =< {
   return (
       <Text>Some Text</Text>
@@ -12,4 +12,5 @@ const App = () =< {
 };
 
 
-// render it to the device
+// Render it to the device
+ReactNative.AppRegistry.registerComponent('albums', () => App);

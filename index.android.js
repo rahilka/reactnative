@@ -13,7 +13,7 @@ import { Text, AppRegistry } from 'react-native';
 
 // refactored component
 const App = () => (
-  <Text>Some Text</Text>
+  <Text>Some Text 123</Text>
 );
 
 

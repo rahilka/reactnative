@@ -29,7 +29,7 @@ const AlbumDetail = ({ album }) => {
 					<Text>{artist}</Text>
 				</View>
 			</CardSection>
-			
+
 			<CardSection>
 				<Image 
 					source={{ uri: image }}
@@ -38,7 +38,7 @@ const AlbumDetail = ({ album }) => {
 			</CardSection>
 
 			<CardSection>
-				<Button />
+				<Button onPress={} />
 			</CardSection>
 		</Card>
 	);

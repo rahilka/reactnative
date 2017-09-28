@@ -15,7 +15,7 @@ import AlbumList from './src/components/AlbumList';
 
 // refactored component
 const App = () => (
-  <View>
+  <View style={{ flex: 1 }}>
     <Header headerText={'Albums'} />
     <AlbumList />
   </View>

@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { View } from 'react-native';
 import firebase from 'firebase';
-import { Header } from './components/common';	//it will go to the index.js file by default
+import { Header, Button, Spinner } from './components/common';	//it will go to the index.js file by default
 import LoginForm from './components/LoginForm';
 
 class App extends Component {
-	state = { loggedIn: false };
+	state = { loggedIn: null }; //set tu null 'cos we don't know if the user is signed in yet
 
 	componentWillMount() {
 		firebase.initializeApp({
@@ -26,11 +26,22 @@ class App extends Component {
 		});
 	}
 
+	renderContent() {
+		switch (this.state.loggedIn) {
+			case true:
+				return <Button>Log Out</Button>;
+			case false:
+				return <LoginForm />;
+			default:
+				return <Spinner size="large" />;
+		}
+	}
+
 	render() {
 		return (
 			<View>
 				<Header headerText="Authentication" />
-				<LoginForm />
+				{this.renderContent()}
 			</View>
 		);
 	}

@@ -2,7 +2,7 @@
 	{
 		"id": 0,
 		"title": "Webpack",
-		"description": "Webpack is a module bundler. I packs CommonJs/AMD"
+		"description": "Webpack is a module bundler. I packs CommonJs/AMD modules i.e. for the browser. Allows to split your codebase into multiple bundles, which can be loaded on demand."
 	},
 	{
 		"id": 1,
@@ -27,7 +27,7 @@
 	{
 		"id": 5,
 		"title": "Redux-Thunk",
-		"description": "Redux Thunk middleware allows you to write action"
+		"description": "Redux Thunk middleware allows you to write action creators that return a function instead of an action. The thunk can be used to delay the dispatch of an action, or to dispatch only if a certain condition is met."
 	},
 	{
 		"id": 6,

@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Text } from 'react-native';
+import { connect } from 'react-redux';
 import { CardSection } from './common';
+import * as actions from '../actions'; //meaning: give me everything that was exported from the actions file 
 
 class ListItem extends Component {
 	render() {
@@ -23,4 +25,5 @@ const styles = {
 	}
 };
 
-export default ListItem;
+// take the actions and pass to the component as props
+export default connect(null, actions)(ListItem);

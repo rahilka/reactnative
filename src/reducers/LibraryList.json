@@ -1,0 +1,47 @@
+[
+	{
+		"id": 0,
+		"title": "Webpack",
+		"description": "Webpack is a module bundler. I packs CommonJs/AMD"
+	},
+	{
+		"id": 1,
+		"title": "React",
+		"description": "React makes it painless to create interactive UIs."
+	},
+	{
+		"id": 2,
+		"title": "Redux",
+		"description": "Redux is a predictable state container for JavaScript"
+	},
+	{
+		"id": 3,
+		"title": "React-Redux",
+		"description": "React-Redux is the official set of bindigs between React and Redux"
+	},
+	{
+		"id": 4,
+		"title": "Lodash",
+		"description": "A modern JavaScript utility library delivering modules"
+	},
+	{
+		"id": 5,
+		"title": "Redux-Thunk",
+		"description": "Redux Thunk middleware allows you to write action"
+	},
+	{
+		"id": 6,
+		"title": "ESLint",
+		"description": "ESLint is an open source JavaScript linting utility"
+	},
+	{
+		"id": 7,
+		"title": "Babel",
+		"description": "Babel has support for the latest version of JavaScript"
+	},
+	{
+		"id": 8,
+		"title": "Axios",
+		"description": "Promise based HTTP client for the browser and node."
+	},	
+]

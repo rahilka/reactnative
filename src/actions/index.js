@@ -1,6 +1,6 @@
-export const selectLibrary = (libraryId) => {
+export const emailChanged = (text) => {
 	return {
-		type: 'select_library',
-		payload: libraryId
-	};	// action !
-}; // the action is wrapped into a function called Action Creator
+		type: 'email_changed',
+		payload: text
+	};
+};

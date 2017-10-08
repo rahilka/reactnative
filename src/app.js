@@ -12,12 +12,12 @@ class App extends Component {
 			authDomain: 'manager-2e6b0.firebaseapp.com',
 			databaseURL: 'https://manager-2e6b0.firebaseio.com',
 			projectId: 'manager-2e6b0',
-			storageBucket: '',
+			storageBucket: 'manager-2e6b0.appspot.com',
 			messagingSenderId: '740792796814'
 		};
 		firebase.initializeApp(config);
 	}
-
+	
 	render() {
 		return (
 			<Provider store={createStore(reducers)}>
